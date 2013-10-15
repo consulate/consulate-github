@@ -1,0 +1,31 @@
+{
+  "name": "consulate-github",
+  "version": "0.1.0",
+  "description": "Github exchange plugin for consulate",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/consulate/consulate-github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/consulate/consulate-github/issues"
+  },
+  "keywords": [
+    "github",
+    "consulate"
+  ],
+  "author": "Cameron Bytheway <cameron@pivotapp.io>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "passport-github": "~0.1.5",
+    "simple-debug": "~1.1.0"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.11.0"
+  }
+}
